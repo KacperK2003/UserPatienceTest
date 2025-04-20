@@ -1,0 +1,29 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: black; 
+    color: white; 
+    text-align: center; 
+    padding: 2%;
+}
+
+section {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    padding: 2%;
+    background-color: blue;
+    color: white; 
+    text-align: center; 
+}
