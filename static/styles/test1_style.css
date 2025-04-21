@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px; /* Dystans między loaderem a tekstem */
+    gap: 10px;
 }
 
 .loader {
