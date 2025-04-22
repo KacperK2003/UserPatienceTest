@@ -7,9 +7,9 @@ body {
 }
 
 header {
-    background-color: black; 
-    color: white; 
-    text-align: center; 
+    background-color: black;
+    color: white;
+    text-align: center;
     padding: 2%;
 }
 
@@ -24,6 +24,24 @@ section {
 footer {
     padding: 2%;
     background-color: blue;
-    color: white; 
-    text-align: center; 
+    color: white;
+    text-align: center;
+}
+
+.next-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.next-button:hover {
+    background-color: rgb(89, 89, 248);
+    color: white;
 }
