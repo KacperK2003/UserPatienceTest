@@ -16,7 +16,11 @@ function onLoad() {
         nextButton.style.pointerEvents = 'auto';
         nextButton.style.opacity = '1';
         nextButton.addEventListener('click', onClick);
-    }, 6000);
+    }, 60000);
+
+    setTimeout(() => {
+        //window.location.href = 
+    }, 60000 * 3);
 }
 
 function onClick() {
