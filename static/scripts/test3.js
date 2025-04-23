@@ -18,7 +18,7 @@ function onLoad() {
 
     setTimeout(() => {
         measure();
-        window.location.href = 'http://localhost:8000/summary';
+        window.location.href = 'http://localhost:8000/submit';
     }, 60000 * 3);
 }
 
