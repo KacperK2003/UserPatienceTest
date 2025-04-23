@@ -61,4 +61,10 @@ def register_routes(app, db):
 
     @app.route('/summary')
     def summary():
-        return str(request.cookies.values())
+        sum = [
+            request.cookies.get('test1'),
+            request.cookies.get('test2'),
+            request.cookies.get('test3')
+        ]
+
+        return f'{sum}'
