@@ -18,17 +18,17 @@ function onLoad() {
 
     setTimeout(() => {
         measure();
-        window.location.href = 'http://localhost:8000/test2';
+        window.location.href = 'http://localhost:8000/test3';
     }, 60000 * 3);
 }
 
 function measure() {
     const clickTime = new Date();
     const reactionTime = clickTime - startTime;
-    document.cookie = `test1=${reactionTime}; path=/; max-age=3600`;
+    document.cookie = `test2=${reactionTime}; path=/; max-age=3600`;
 }
 
 function onClick() {
     measure();
-    window.location.href = 'http://localhost:8000/test2';
+    window.location.href = 'http://localhost:8000/test3';
 }
