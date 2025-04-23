@@ -61,4 +61,4 @@ def register_routes(app, db):
 
     @app.route('/summary')
     def summary():
-        return request.json
+        return str(request.cookies.values())

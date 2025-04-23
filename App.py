@@ -10,8 +10,6 @@ def create_app():
     load_dotenv()
 
     app = Flask(__name__)
-    app.secret_key = getenv('SECRET_KEY')
-
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///results.db'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 

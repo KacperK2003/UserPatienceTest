@@ -30,5 +30,5 @@ function measure() {
 
 function onClick() {
     measure();
-    window.location.href = 'http://localhost:8000/summary';
+    window.location.href = 'http://localhost:8000/submit';
 }
