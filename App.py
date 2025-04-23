@@ -30,4 +30,4 @@ def summary():
 
 if __name__ == '__main__':
     load_dotenv()
-    app.run(port=8000, debug=getenv('DEBUG'))
+    app.run(port=getenv('PORT'), debug=getenv('DEBUG'))
