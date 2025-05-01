@@ -1,0 +1,127 @@
+.question-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.loader-options {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    user-select: none;
+}
+
+.loader-option {
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: border 0.3s;
+}
+
+    .loader-option:hover {
+        border: 2px solid #007BFF;
+    }
+
+/* style1 (jak test1) */
+.loader-style1 {
+    width: 50px;
+    height: 50px;
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+/* style2 (jak test2) */
+.loader-style2 span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    background: #3498db;
+    border-radius: 50%;
+    animation: bounce 0.6s infinite alternate;
+}
+
+    .loader-style2 span:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+
+    .loader-style2 span:nth-child(3) {
+        animation-delay: 0.4s;
+    }
+
+/* style3 (jak test3) */
+.loader-style3 {
+    width: 100px;
+    background: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+    .loader-style3 .loader-progress {
+        width: 0;
+        height: 10px;
+        background: #3498db;
+        animation: progress 2s linear infinite;
+    }
+
+/* Animations */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes progress {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+
+.confirm-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+    .confirm-button:disabled {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+
+    .confirm-button:not(:disabled) {
+        opacity: 1;
+    }
+
+.loader-option.selected {
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+}

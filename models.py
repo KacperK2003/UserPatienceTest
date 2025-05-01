@@ -7,6 +7,7 @@ class TestResult(db.Model):
     test1 = db.Column(db.Integer)
     test2 = db.Column(db.Integer)
     test3 = db.Column(db.Integer)
+    question1_choice = db.Column(db.String)
 
     def __repr__(self):
         return f'<Result {self.id}>'

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/question1_style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="question-container">
+    <h2>Który ze sposobów ładowania budzi w Tobie najprzyjemniejsze emocje?</h2>
+    <div class="loader-options">
+        <div class="loader-option" data-choice="1">
+            <div class="loader-style1"></div>
+        </div>
+        <div class="loader-option" data-choice="2">
+            <div class="loader-style2">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="loader-option" data-choice="3">
+            <div class="loader-style3">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+    <button class="confirm-button" disabled>Zatwierdź</button>
+</div>
+
+<script src="{{ url_for('static', filename='scripts/question1.js') }}"></script>
+{% endblock %}

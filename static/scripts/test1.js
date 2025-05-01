@@ -14,7 +14,7 @@ function onLoad() {
         nextButton.style.pointerEvents = 'auto';
         nextButton.style.opacity = '1';
         nextButton.addEventListener('click', onClick);
-    }, 2000);
+    }, 1000);
 
     setTimeout(() => {
         measure();
