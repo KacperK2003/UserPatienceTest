@@ -16,9 +16,19 @@
             {% block body %}{% endblock %}
         </div>
     </section>
+
+    <div id="cookie-banner">
+        <p>
+            Ta strona korzysta z plików cookie, aby zapewnić poprawne działanie witryny.
+            <button onclick="document.getElementById('cookie-banner').style.display='none'">Rozumiem</button>
+        </p>
+    </div>
+
     <footer>
         <h1>Projekt stworzony przez KAF Studio.</h1>
     </footer>
-  
+
+    <script src="{{ url_for('static', filename='scripts/cookie_banner.js') }}"></script>
+
 </body>
 </html>

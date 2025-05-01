@@ -14,11 +14,11 @@ function onLoad() {
         nextButton.style.pointerEvents = 'auto';
         nextButton.style.opacity = '1';
         nextButton.addEventListener('click', onClick);
-    }, 60000);
+    }, 1000);
 
     setTimeout(() => {
         measure();
-        window.location.href = 'http://localhost:8000/submit';
+        window.location.href = 'http://localhost:8000/question1';
     }, 60000 * 3);
 }
 
@@ -30,5 +30,5 @@ function measure() {
 
 function onClick() {
     measure();
-    window.location.href = 'http://localhost:8000/submit';
+    window.location.href = 'http://localhost:8000/question1';
 }
