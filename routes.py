@@ -61,10 +61,16 @@ def register_routes(app, db):
 
     @app.route('/summary')
     def summary():
-        sum = [
-            request.cookies.get('test1'),
-            request.cookies.get('test2'),
-            request.cookies.get('test3')
-        ]
+        time1 = request.cookies.get('test1')
+        time2 = request.cookies.get('test2')
+        time3 = request.cookies.get('test3')
 
-        return f'{sum}'
+        time1 = int(time1) if time1 else 0
+        time2 = int(time2) if time2 else 0
+        time3 = int(time3) if time3 else 0
+
+        time1_in_seconds = round(time1 / 1000.0, 2)
+        time2_in_seconds = round(time2 / 1000.0, 2)
+        time3_in_seconds = round(time3 / 1000.0, 2)
+
+        return render_template('summary.html', test1=time1_in_seconds, test2=time2_in_seconds, test3=time3_in_seconds)

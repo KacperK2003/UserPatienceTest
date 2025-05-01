@@ -45,3 +45,20 @@ footer {
     background-color: rgb(89, 89, 248);
     color: white;
 }
+
+#cookie-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    z-index: 1000;
+    transition: opacity 0.5s ease;
+}
+
+    #cookie-banner.hidden {
+        opacity: 0;
+        pointer-events: none;
+    }
