@@ -18,7 +18,7 @@ function onLoad() {
 
     setTimeout(() => {
         measure();
-        window.location.href = 'http://localhost:8000/test3';
+        window.location.href = '/test3';
     }, 60000 * 3);
 }
 
@@ -30,5 +30,5 @@ function measure() {
 
 function onClick() {
     measure();
-    window.location.href = 'http://localhost:8000/test3';
+    window.location.href = '/test3';
 }

@@ -4,5 +4,5 @@ window.onload = function() {
 }
 
 function onClick() {
-    window.location.href = 'http://localhost:8000/test1';
+    window.location.href = '/test1';
 }

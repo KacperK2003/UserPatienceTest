@@ -15,7 +15,7 @@ window.onload = function () {
     confirmButton.addEventListener('click', function () {
         if (selectedChoice) {
             document.cookie = `question1_choice=${selectedChoice}; path=/; max-age=3600`;
-            window.location.href = 'http://localhost:8000/submit';
+            window.location.href = '/submit';
         }
     });
 }
