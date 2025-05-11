@@ -1,5 +1,7 @@
 # 📊 [UserPatienceTest]
 
+> Wersja polska | 🇬🇧 [See the English version](README.md)
+
 ## 👥 Autorzy
 - Filip Gumiński ([@Fifikula](https://github.com/Fifikula))
 - Kacper Kozłowski ([@KacperK2003](https://github.com/KacperK2003))
