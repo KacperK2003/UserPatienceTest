@@ -7,6 +7,13 @@
 - Kacper Kozłowski ([@KacperK2003](https://github.com/KacperK2003))
 - Adam Rachuba ([@rachu033](https://github.com/rachu033))
 
+## 📄 Licencje
+
+- **Kod źródłowy** w tym repozytorium jest objęty licencją [MIT License](LICENSE).
+- **Materiały badawcze** (np., `KCK.pdf`, wykresy, raporty) objęte są licencją [Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+
+Prosimy o podanie autorów w przypadku wykorzystania lub cytowania wyników badania.
+
 ## 🧪 Opis
 Projekt ma na celu zbadanie, w jaki sposób różne typy animacji ładowania wpływają na postrzeganą cierpliwość użytkowników w środowisku aplikacji internetowej. Podsumowanie badania znajduje się w pliku KCK.pdf. 
 
