@@ -7,6 +7,13 @@
 - Kacper Kozłowski ([@KacperK2003](https://github.com/KacperK2003))
 - Adam Rachuba ([@rachu033](https://github.com/rachu033))
 
+## 📄 License
+
+- The **source code** in this repository is licensed under the [MIT License](LICENSE).
+- The **research materials** (e.g., `KCK.pdf`, charts, reports) are licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+
+Please credit the original authors if you use or reference any part of the research.
+
 ## 🧪 Description
 The project aims to examine how different types of loading animations affect users' perceived patience in a web application environment. The summary of the study is in the KCK.pdf file. 
 
