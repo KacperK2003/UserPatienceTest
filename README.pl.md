@@ -1,4 +1,4 @@
-# 📊 [UserPatienceTest]
+# 📊 UserPatienceTest
 
 > Wersja polska | 🇬🇧 [See the English version](README.md)
 
@@ -33,7 +33,7 @@ cd UserPatienceTest
 ```
 
 ### 2. Tworzenie i uruchomienie środowiska wirtualnego:
-Windows:
+**Windows:**
 ```cmd
 python -m venv .venv
 .\.venv\Scripts\activate
@@ -41,6 +41,13 @@ python -m venv .venv
 Jeśli zwracany jest błąd ".venv\Scripts\Activate.ps1 cannot be loaded because running scripts is disabled on this system" użyj 
 ```cmd
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+```
+
+**Unix/macOS:**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
 ### 3. Instalowanie bibliotek:
