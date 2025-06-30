@@ -7,7 +7,7 @@
 - Kacper Kozłowski ([@KacperK2003](https://github.com/KacperK2003))
 - Adam Rachuba ([@rachu033](https://github.com/rachu033))
 
-KAF Studio
+**KAF Studio**
 
 ## 📄 License
 
